@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>د. عبدالله المصعبي | طبيب أسنان</title>
+    <title>د. عبدالله المصعبي | طبيب أسنان نجران</title>
+    <meta name="description" content="د. عبدالله المصعبي طبيب أسنان متميز في نجران، يقدم خدمات علاج العصب والحشوات وخلع الأسنان وتجميلها بأعلى معايير الجودة وبيد خفيفة." />
+    <meta name="keywords" content="طبيب أسنان, نجران, د. عبدالله المصعبي, علاج عصب, حشوات, خلع أسنان, تجميل أسنان" />
+    <meta name="author" content="د. عبدالله المصعبي" />
+    <link rel="canonical" href="https://dr-almosabi.com" />
+    <meta property="og:title" content="د. عبدالله المصعبي | طبيب أسنان نجران" />
+    <meta property="og:description" content="طبيب أسنان متميز في نجران، يقدم خدمات علاج العصب والحشوات والتجميل والخلع بأعلى معايير الجودة." />
+    <meta property="og:type" content="website" />
+    <meta name="robots" content="index, follow" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
@@ -665,17 +673,36 @@
             font-size: 0.95rem;
             margin-bottom: 16px;
         }
+        .package-card .pkg-price-wrap {
+            text-align: center;
+            margin-bottom: 18px;
+        }
         .package-card .pkg-price {
             font-size: 2.2rem;
             font-weight: 800;
             color: var(--gold);
-            text-align: center;
-            margin-bottom: 18px;
         }
         .package-card .pkg-price small {
             font-size: 1rem;
             font-weight: 400;
             color: var(--text-muted);
+        }
+        .package-card .pkg-discount {
+            display: inline-block;
+            background: #e74c3c;
+            color: #fff;
+            padding: 2px 14px;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+        .package-card .pkg-original {
+            text-decoration: line-through;
+            color: var(--text-muted);
+            font-size: 1rem;
+            opacity: 0.6;
+            margin-left: 8px;
         }
         .package-card ul {
             list-style: none;
@@ -1266,7 +1293,7 @@
                 <a href="#appointment" class="hero-cta" data-i18n="hero_cta">📅 احجز موعدك الآن</a>
             </div>
             <div class="hero-visual">
-                <img src="images/img2.PNG" alt="" class="hero-logo-svg">
+                <img src="images/img2.png" alt="DR.Abdullah Al-Mosabi" class="hero-logo-svg">
             </div>
         </div>
     </section>
@@ -1335,7 +1362,11 @@
                     <div class="pkg-icon">📄</div>
                     <div class="pkg-name" data-i18n="pkg_basic_name">موقع تعريفي</div>
                     <div class="pkg-sub" data-i18n="pkg_basic_sub">هوية رقمية احترافية</div>
-                    <div class="pkg-price" data-i18n="pkg_basic_price">999 <small>ريال</small></div>
+                    <div class="pkg-price-wrap">
+                        <span class="pkg-price" data-i18n="pkg_basic_price">249.75 <small>﷼</small></span>
+                        <span class="pkg-original">999 ﷼</span>
+                        <div class="pkg-discount">خصم 75%</div>
+                    </div>
                     <ul>
                         <li data-i18n="pkg_basic_1">صفحة تعريفية بالدكتور</li>
                         <li data-i18n="pkg_basic_2">عرض الخدمات</li>
@@ -1350,7 +1381,11 @@
                     <div class="pkg-icon">📅</div>
                     <div class="pkg-name" data-i18n="pkg_premium_name">موقع متكامل</div>
                     <div class="pkg-sub" data-i18n="pkg_premium_sub">تعريفي + نظام حجز موعد</div>
-                    <div class="pkg-price" data-i18n="pkg_premium_price">2499 <small>ريال</small></div>
+                    <div class="pkg-price-wrap">
+                        <span class="pkg-price" data-i18n="pkg_premium_price">624.75 <small>﷼</small></span>
+                        <span class="pkg-original">2499 ﷼</span>
+                        <div class="pkg-discount">خصم 75%</div>
+                    </div>
                     <ul>
                         <li data-i18n="pkg_premium_1">كل مميزات الباقة الأساسية</li>
                         <li data-i18n="pkg_premium_2">نظام حجز موعد متكامل</li>
@@ -1473,7 +1508,7 @@
             </div>
             <div class="col">
                 <h4 data-i18n="footer_contact">تواصل معنا</h4>
-                <span>📞 053 539 6394</span>
+                <span>📞 0535396394</span>
                 <a href="https://wa.me/966535396394" target="_blank" rel="noopener">💬 واتساب</a>
                 <a href="https://www.tiktok.com/@dr.artist10?_t=8q0Ax2oDyWV&_r=1" target="_blank" rel="noopener" class="social-icon">
                     <svg viewBox="0 0 24 24"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-2.84 3.37-2.22V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/></svg>
@@ -1537,7 +1572,7 @@
                 packages_sub: 'باقات مواقع احترافية تناسب احتياجات عيادتك',
                 pkg_basic_name: 'موقع تعريفي',
                 pkg_basic_sub: 'هوية رقمية احترافية',
-                pkg_basic_price: '999 <small>ريال</small>',
+                pkg_basic_price: '249.75 <small>﷼</small>',
                 pkg_basic_1: 'صفحة تعريفية بالدكتور',
                 pkg_basic_2: 'عرض الخدمات',
                 pkg_basic_3: 'نموذج تواصل',
@@ -1545,7 +1580,7 @@
                 pkg_basic_5: 'تصميم متجاوب مع الجوال',
                 pkg_premium_name: 'موقع متكامل',
                 pkg_premium_sub: 'تعريفي + نظام حجز موعد',
-                pkg_premium_price: '2499 <small>ريال</small>',
+                pkg_premium_price: '624.75 <small>﷼</small>',
                 pkg_premium_1: 'كل مميزات الباقة الأساسية',
                 pkg_premium_2: 'نظام حجز موعد متكامل',
                 pkg_premium_3: 'إشعارات تأكيد الحجز',
@@ -1611,7 +1646,7 @@
                 packages_sub: 'Professional website packages tailored for your clinic',
                 pkg_basic_name: 'Informational Site',
                 pkg_basic_sub: 'Professional digital identity',
-                pkg_basic_price: '999 <small>SAR</small>',
+                pkg_basic_price: '249.75 <small>﷼</small>',
                 pkg_basic_1: 'Doctor introduction page',
                 pkg_basic_2: 'Services display',
                 pkg_basic_3: 'Contact form',
@@ -1619,7 +1654,7 @@
                 pkg_basic_5: 'Mobile-responsive design',
                 pkg_premium_name: 'Complete Site',
                 pkg_premium_sub: 'Informational + Booking System',
-                pkg_premium_price: '2499 <small>SAR</small>',
+                pkg_premium_price: '624.75 <small>﷼</small>',
                 pkg_premium_1: 'All Basic package features',
                 pkg_premium_2: 'Integrated appointment booking system',
                 pkg_premium_3: 'Booking confirmation notifications',
@@ -1685,7 +1720,7 @@
                 packages_sub: 'آپ کی کلینک کی ضروریات کے مطابق پیشہ ورانہ ویب سائٹ پیکجز',
                 pkg_basic_name: 'تعارفی سائٹ',
                 pkg_basic_sub: 'پیشہ ورانہ ڈیجیٹل شناخت',
-                pkg_basic_price: '999 <small>ریال</small>',
+                pkg_basic_price: '249.75 <small>﷼</small>',
                 pkg_basic_1: 'ڈاکٹر کا تعارفی صفحہ',
                 pkg_basic_2: 'خدمات کی نمائش',
                 pkg_basic_3: 'رابطہ فارم',
@@ -1693,7 +1728,7 @@
                 pkg_basic_5: 'موبائل کے لیے ذمہ دار ڈیزائن',
                 pkg_premium_name: 'مکمل سائٹ',
                 pkg_premium_sub: 'تعارفی + بکنگ سسٹم',
-                pkg_premium_price: '2499 <small>ریال</small>',
+                pkg_premium_price: '624.75 <small>﷼</small>',
                 pkg_premium_1: 'بنیادی پیکج کی تمام خصوصیات',
                 pkg_premium_2: 'مکمل اپوائنٹمنٹ بکنگ سسٹم',
                 pkg_premium_3: 'بکنگ کی تصدیق کے اطلاعی پیغامات',
